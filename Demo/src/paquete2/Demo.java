@@ -4,7 +4,8 @@
  * and open the template in the editor.
  */
 package paquete2;
-
+import paquete1.Mensaje;
+import paquete3.Valor;
 
 /**
  *
@@ -17,7 +18,9 @@ public class Demo {
      */
     public static void main(String[] args) {
         
-        System.out.printf();
+        System.out.printf("%s con %s habitantes"
+                + "",Mensaje.obtenerFrase(), Valor.obtenerHabitantes());
+       
     }
     
 }
