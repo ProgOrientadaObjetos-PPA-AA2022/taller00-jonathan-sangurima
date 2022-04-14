@@ -18,8 +18,7 @@ public class Demo {
      */
     public static void main(String[] args) {
         
-        System.out.printf("%s con %s habitantes"
-                + "",Mensaje.obtenerFrase(), Valor.obtenerHabitantes());
+        System.out.printf("%s con %s habitantes\n",Mensaje.obtenerFrase(), Valor.obtenerHabitantes());
        
     }
     
